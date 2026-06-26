@@ -1,0 +1,55 @@
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+.venv/
+
+# ── Node.js ───────────────────────────────────
+node_modules/
+.next/
+out/
+
+# ── Environment ──────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── IDE ───────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Storage ──────────────────────────────────
+backend/storage/
+*.mp4
+*.avi
+*.mov
+
+# ── Docker ───────────────────────────────────
+docker-compose.override.yml
+
+# ── Testing ──────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ── Misc ─────────────────────────────────────
+*.log
+npm-debug.log*

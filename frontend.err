@@ -1,0 +1,13 @@
+⚠ Port 3000 is in use by process 15164, using available port 3001 instead.
+⚠ `eslint` configuration in next.config.ts is no longer supported. See more info here: https://nextjs.org/docs/app/api-reference/cli/next#next-lint-options
+⚠ Invalid next.config.ts options detected: 
+⚠     Unrecognized key(s) in object: 'eslint'
+⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          15164
+- Dir:          D:\cv-poduct-main\cv-poduct-main\frontend
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 15164 /F to stop it.
